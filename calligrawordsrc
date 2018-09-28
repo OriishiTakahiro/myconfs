@@ -1,0 +1,132 @@
+[DockWidget sharedtooldocker]
+TabbedMode=false
+
+[File Dialogs]
+SaveDocument=/home/takahiro/Downloads
+
+[Interface]
+ResolutionX=14.1732529
+ResolutionY=14.1732529
+Rulers=false
+StatusBarShowLineNumber=true
+StatusBarShowModified=true
+StatusBarShowMouse=false
+StatusBarShowPage=true
+StatusBarShowPageSize=false
+StatusBarShowPageStyle=true
+StatusBarShowWordCount=false
+StatusBarShowZoom=true
+ViewFieldShadings=true
+ViewFormattingChars=false
+ViewFrameBorders=true
+ViewSectionBounds=false
+ViewTableBorders=true
+Zoom=100
+ZoomMode=0
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/atWare.odt,file:$HOME/Downloads/atWare.odt
+Recent URLs[$e]=file:$HOME/Downloads/
+
+[MainWindow]
+Height 1108=1039
+Height 831=795
+Width 1477=1205
+Width 1969=1394
+ko_geometry=AdnQywACAAAAAADGAAAEOQAABj8AAAhmAAAAygAABFgAAAY7AAAIZgAAAAAAAAAAB7E=
+ko_windowstate=AAAA/wAAAAD9AAAAAQAAAAEAAAVyAAADy/wCAAAAB/sAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAARAAAAHEAAABxAQAAA/sAAAAUAE4AYQB2AGkAZwBhAHQAaQBvAG4AAAAAAP////8AAAB3AQAAA/sAAAAUAFMAdABhAHQAaQBzAHQAaQBjAHMAAAAAAP////8AAAEDAQAAA/sAAAAgAFMAaABhAHAAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAhAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAEQAAACMAAAAIQAAACH7AAAAKABTAG4AYQBwAEcAdQBpAGQAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAhAQAAA/sAAAAOAE0AbwBkAGUAQgBvAHgBAAAARAAAA8sAAACuAAgAIAAAAAAAAAOkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[Misc]
+Units=cm
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME/Downloads,$HOME,$HOME/Documents
+
+[RecentFiles]
+File1[$e]=$HOME/Downloads/2017kigyougyousei_report.doc
+File10[$e]=$HOME/Downloads/3SITEIA(IA) (1).doc
+File2[$e]=$HOME/Downloads/atWare.odt
+File3[$e]=$HOME/Downloads/program.doc
+File4[$e]=$HOME/Downloads/ken3.docx
+File5[$e]=$HOME/Downloads/modification.docx
+File6[$e]=$HOME/Downloads/abst_modif.docx
+File7[$e]=$HOME/Downloads/modified.docx
+File8[$e]=$HOME/Downloads/3SITEIA(IA).doc
+File9[$e]=$HOME/Downloads/ken1.doc
+Name1[$e]=2017kigyougyousei_report.doc
+Name10[$e]=3SITEIA(IA) (1).doc
+Name2[$e]=atWare.odt
+Name3[$e]=program.doc
+Name4[$e]=ken3.docx
+Name5[$e]=modification.docx
+Name6[$e]=abst_modif.docx
+Name7[$e]=modified.docx
+Name8[$e]=3SITEIA(IA).doc
+Name9[$e]=ken1.doc
+
+[Statistics]
+CharnospacesVisible=true
+CharspacesVisible=true
+EastAsianCharactersVisible=true
+FleschVisible=true
+LinesVisible=true
+SentencesVisible=true
+SyllablesVisible=true
+WordsVisible=true
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=
+DetailsPaneSplitterSizes=723,319
+FullTemplateName[$e]=/usr/share/calligrawords/templates/Normal/.source/A4.odt
+LastReturnType=Template
+
+[calligra]
+DevicePlugins=spacenavigator
+DevicePluginsDisabled=
+DockerPlugins=calligradockers,calligra_docker_stencils
+DockerPluginsDisabled=
+ModeBoxHorizontalTabsSide=0
+ShapePlugins=artistictextshape,chartshape,formulashape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,textshape,vectorshape,videoshape
+TextEditingPlugins=autocorrect,changecase,spellcheck
+TextInlinePlugins=textvariables
+ToolPlugins=basicflakesplugin,defaulttools,karbontools
+ToolPluginsDisabled=
+
+[calligrawords]
+State=AAAA/wAAAAD9AAAAAQAAAAEAAAIDAAADpPwCAAAAB/sAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAARAAAAHEAAABxAQAAA/sAAAAUAE4AYQB2AGkAZwBhAHQAaQBvAG4AAAAAAP////8AAAB3AQAAA/sAAAAUAFMAdABhAHQAaQBzAHQAaQBjAHMAAAAAAP////8AAAEDAQAAA/sAAAAgAFMAaABhAHAAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAAAhAQAAA/sAAAAqAFMAaABhAHAAZQBDAG8AbABsAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAEQAAACMAAAAIQAAACH7AAAAKABTAG4AYQBwAEcAdQBpAGQAZQAgAFAAcgBvAHAAZQByAHQAaQBlAHMAAAAAAP////8AAABtAQAAA/sAAAAOAE0AbwBkAGUAQgBvAHgBAAAARAAAA6QAAACuAAgAIAAAA24AAAOkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAGQAaQB0AF8AdABvAG8AbABiAGEAcgEAAADu/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[calligrawords][DockWidget ModeBox]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget Navigation]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget Statistics]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrawords][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+Locked=false

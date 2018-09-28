@@ -1,0 +1,21 @@
+[Custom Search Scope]
+kde_application_manuals=true
+manpages=true
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[Layout]
+CurrentTab=Search
+
+[MainWindow]
+Height 1108=782
+State=AAAA/wAAAAD9AAAAAAAABfUAAAKzAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1969=1525
+
+[MainWindowState]
+Splitter=419,1105
+
+[Search]
+ScopeSelection=3

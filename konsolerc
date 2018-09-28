@@ -1,0 +1,42 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Recent Files[$e]=S__1059880991.jpg,file:$HOME/Picture/momoko/S__1059880991.jpg
+Recent URLs[$e]=file:$HOME/Picture/momoko/
+
+[MainWindow]
+Height 1029=969
+Height 1080=1024
+Height 1108=678
+Height 1200=1146
+Height 1440=1386
+Height 1800=1733
+Height 720=430
+Height 768=714
+Height 771=714
+Height 831=1039
+Height 900=846
+Height 923=892
+State=AAAA/wAAAAD9AAAAAAAACfwAAAVYAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1020
+Width 1231=1969
+Width 1280=927
+Width 1371=1206
+Width 1477=1969
+Width 1600=1596
+Width 1829=1851
+Width 1920=956
+Width 1969=1303
+Width 2133=2130
+Width 2560=2556
+Width 3200=3195
+Window-Maximized 1108x1969=true
+Window-Maximized 771x1371=true
+
+[SearchSettings]
+SearchCaseSensitive=true

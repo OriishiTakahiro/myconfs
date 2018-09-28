@@ -1,0 +1,405 @@
+# for general ------------------
+[[plugins]]
+repo = 'Shougo/neosnippet'
+hook_source = '''
+  imap <C-k> <Plug>(neosnippet_expand_or_jump)
+  smap <C-k> <Plug>(neosnippet_expand_or_jump)
+  xmap <C-k> <Plug>(neosnippet_expand_target)
+  if has('conceal')
+    set conceallevel=2 concealcursor=niv
+  endif
+'''
+on_i  = 1
+on_ft = ['snippet']
+depends = ['neosnippet-snippets']
+
+# for android ------------------
+[[plugins]]
+repo = 'hsanson/vim-android'
+hook_source = '''
+  let g:gradle_glyph_error = '⨉'
+  let g:gradle_glyph_warning = '⚠'
+  let g:gradle_glyph_gradle = '[g]'
+  let g:gradle_glyph_android = '[a]'
+'''
+on_cmd = 'StartAndroid'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+on_ft = ['haskell']
+
+# You can confirm filetype by ':set filetype' command.
+# plugin for linter
+[[plugins]]
+repo = 'w0rp/ale'
+on_ft = ['go', 'haskell', 'typescript', 'python', 'java', 'tex', 'markdown', 'yaml', 'javascript', 'sql', 'html']
+hook_source = '''
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 1
+let g:ale_set_loclist = 0
+let g:ale_set_quickfix = 1
+let g:ale_open_list = 0
+let g:ale_keep_list_window_open = 0
+
+let g:ale_sign_error = '⨉'
+let g:ale_sign_warning = '⚠'
+let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
+
+function! LinterStatus() abort
+    let l:counts = ale#statusline#Count(bufnr(''))
+    let l:all_errors = l:counts.error + l:counts.style_error
+    let l:all_non_errors = l:counts.total - l:all_errors
+    return l:counts.total == 0 ? 'OK' : printf(
+    \   '%dW %dE',
+    \   all_non_errors,
+    \   all_errors
+    \)
+endfunction
+
+set statusline=%{LinterStatus()}
+
+let g:ale_echo_msg_error_str = '⨉'
+let g:ale_echo_msg_warning_str = '⚠'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+
+" moving between errors
+nmap <silent> <C-n> <Plug>(ale_previous_wrap)
+nmap <silent> <C-p> <Plug>(ale_next_wrap)
+
+let g:ale_linters = {
+\   'go':['gofmt', 'golint', 'go vet'],
+\   'haskell': ['hlint'],
+\   'typescript': ['tslint'],
+\   'python': ['flake8'],
+\   'java': ['checkstyle'],
+\   'tex': ['alex', 'proselint'],
+\   'markdown': ['vale', 'proselint'],
+\   'yaml': ['swaglint'],
+\   'javascript':['eslint', 'flow'],
+\   'sql':['sqlint'],
+\   'html':['alex', 'proselint'],
+\}
+'''
+
+[[plugins]]
+repo = 'Floobits/floobits-neovim'
+on_cmd = 'Floobits'
+
+# plugin for ctags
+[[plugins]]
+repo = 'craigemery/vim-autotag'
+on_ft = ['haskell', 'python', 'java', 'kotlin', 'tex']
+hook_source = '''
+let g:autotagTagsFile = '.tags'
+let g:tagbar_autoshowtag = 1
+let g:tagbar_show_visibility = 1
+let g:tagbar_autopreview = 1
+let g:tagbar_type_tex = {
+\ 'ctagstype' : 'latex',
+\ 'kinds' : [
+\   'c:chapter:0:1',
+\   's:section:0:1',
+\   't:subsection:1:1',
+\   'u:subsubsection:1:1',
+\   'l:label:1:1'
+\ ],
+\ 'kind2scope' : {
+\   'c' : 'chapter',
+\   's' : 'section',
+\   't' : 'subsection',
+\   'u' : 'subsubsection',
+\ },
+\ 'scope2kind' : {
+\   'chapter'  : 'c',
+\   'section'  : 's',
+\   'subsection': 't',
+\   'subsubsection': 'u',
+\  },
+\ 'sort'    : 0,
+\ }
+let g:tagbar_type_haskell = {
+\ 'ctagsbin'  : 'hasktags',
+\ 'ctagsargs' : '-x -c -o-',
+\ 'kinds'     : [
+\    'm:modules:0:1',
+\    'd:data: 0:1',
+\    'd_gadt: data gadt:0:1',
+\    't:type names:0:1',
+\    'nt:new types:0:1',
+\    'c:classes:0:1',
+\    'cons:constructors:1:1',
+\    'c_gadt:constructor gadt:1:1',
+\    'c_a:constructor accessors:1:1',
+\    'ft:function types:1:1',
+\    'fi:function implementations:0:1',
+\    'o:others:0:1'
+\ ],
+\ 'sro'        : '.',
+\ 'kind2scope' : {
+\   'm' : 'module',
+\   'c' : 'class',
+\   'd' : 'data',
+\   't' : 'type'
+\ },
+\ 'scope2kind' : {
+\   'module' : 'm',
+\   'class'  : 'c',
+\   'data'   : 'd',
+\   'type'   : 't'
+\ }
+\ }
+'''
+[[plugins]]
+repo = 'jstemmer/gotags'
+on_ft = 'go'
+hook_source = '''
+let g:tagbar_type_go = {
+\ 'ctagstype' : 'go',
+\ 'kinds'     : [
+\   'p:package',
+\   'i:imports:1',
+\   'c:constants',
+\   'v:variables',
+\   't:types',
+\   'n:interfaces',
+\   'w:fields',
+\   'e:embedded',
+\   'm:methods',
+\   'r:constructor',
+\   'f:functions'
+\ ],
+\ 'sro' : '.',
+\ 'kind2scope' : {
+\   't' : 'ctype',
+\   'n' : 'ntype'
+\ },
+\ 'scope2kind' : {
+\   'ctype' : 't',
+\   'ntype' : 'n'
+\ },
+\ 'ctagsbin'  : 'gotags',
+\ 'ctagsargs' : '-sort -silent'
+\ }
+'''
+
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+on_ft = ['go', 'haskell', 'ruby', 'tex']
+
+[[plugins]]
+repo = 'majutsushi/tagbar'  # gd is command for 'go to definition'
+on_ft = ['go', 'haskell', 'python', 'tex']
+hook_source = '''
+nmap <F8> :TagbarToggle<CR>
+let g:tagbar_width = 30
+let g:tagbar_autoshowtag = 1
+'''
+
+[[plugins]]
+repo = 'airblade/vim-rooter'
+on_ft = ['go', 'python']
+hook_source = '''
+let g:rooter_use_lcd = 1
+let g:rooter_patterns = ['.git/', '.git', '.tags']
+'''
+
+# for golang ------------------
+[[plugins]]
+repo = 'zchee/deoplete-go'
+on_ft = 'go'
+depends = ['deoplete.nvim']
+build = 'make'
+[[plugins]]
+repo = 'fatih/vim-go'
+hook_source = '''
+let g:go_bin_path = $GOPATH.'/bin' 
+filetype plugin indent on
+'''
+on_ft = 'go'
+[[plugins]]
+repo = 'sebdah/vim-delve'
+on_ft = 'go'
+hook_source = '''
+let g:delve_enable_syntax_highlighting = 0
+let g:delve_backend = "native"
+'''
+hook_source = '''
+nmap :bp :DlvToggleBreakpoint<CR> " <CR> means press Return key
+nmap :tp :DlvToggleTracepoint<CR>
+nmap :gdebug :DlvDebug<CR>
+nmap :gtest :DlvTest<CR>
+nmap :gtest :DlvTest<CR>
+nmap :gclear :DlvClearAll<CR>
+'''
+[[plugins]]
+repo = 'vim-jp/vim-go-extra'
+on_ft = 'go'
+hook_source = '''
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_structs = 1
+let g:go_auto_sameids = 1
+'''
+
+
+# for latex ------------------
+[[plugins]]
+repo = 'poppyschmo/deoplete-latex'
+on_ft = 'tex'
+[[plugins]]
+repo = 'lervag/vimtex'
+hook_source='''
+" compile
+let g:vimtex_compiler_latexmk = {
+\ 'background': 1,
+\ 'build_dir': '',
+\ 'continuous': 1,
+\ 'options': [
+\    '-pdfdvi', 
+\    '-verbose',
+\    '-file-line-error',
+\    '-synctex=1',
+\    '-interaction=nonstopmode',
+\ ],
+\}
+" viewer
+let g:latex_view_general_viewer = '/usr/bin/evince'
+let g:vimtex_view_general_options = '-r @line @pdf @tex'
+let g:latex_view_method = 'general'
+" fold
+let g:latex_fold_parts = [
+      \ "appendix",
+      \ "frontmatter",
+      \ "mainmatter",
+      \ "backmatter",
+    \ ]
+let g:latex_fold_sections = [
+      \ "part",
+      \ "chapter",
+      \ "section",
+      \ "subsection",
+      \ "subsubsection",
+    \ ]
+let g:latex_fold_enabled = 1
+let g:latex_fold_automatic = 1
+let g:latex_fold_envs = 0
+" others
+let g:vimtex_imaps_enabled = 0
+'''
+on_ft = 'tex'
+
+# for python ------------------
+[[plugins]]
+repo = 'zchee/deoplete-jedi'
+on_ft = 'python'
+
+# for ruby ------------------
+[[plugins]]
+repo = 'fishbullet/deoplete-ruby'
+on_ft = 'ruby'
+
+# for haskell ------------------
+[[plugins]]
+repo = 'neovimhaskell/neovim-ghcmod'
+on_ft = 'haskell'
+[[plugins]]
+repo = 'bitc/lushtags'
+on_ft = 'haskell'
+
+# for rust ------------------
+[[plugins]]
+repo = 'rust-lang/rust.vim'
+on_ft = 'rust'
+hook_source = '''
+    let g:rustfmt_autosave = 1
+'''
+[[plugins]]
+repo = 'sebastianmarkow/deoplete-rust'
+on_ft = 'rust'
+depends = ['deoplete.nvim']
+hook_source = '''
+    let g:deoplete#sources#rust#racer_binary='/home/takahiro/.cargo/bin/racer'
+    let g:deoplete#sources#rust#rust_source_path='$HOME/rust/src'
+    let g:deoplete#sources#rust#show_duplicates=1
+    let g:deoplete#sources#rust#disable_keymap=1
+    nmap <buffer> gd <plug>DeopleteRustGoToDefinitionDefault
+    nmap <buffer> K  <plug>DeopleteRustShowDocumentation
+'''
+
+# for typescript ------------------
+[[plugins]]
+repo = 'mhartington/deoplete-typescript'
+on_ft = 'typescript'
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft = 'typescript'
+
+# for javascript ------------------
+[[plugins]]
+repo = 'billyvg/tigris.nvim'
+hook_post_update = '''
+  let g:dein#plugin.build = './install.sh'
+  let g:tigris#enabled = 1
+  let g:tigris#on_the_fly_enabled = 1
+  let g:tigris#delay = 300
+'''
+[[plugins]]
+repo =  'maxmellon/vim-jsx-pretty'
+on_ft = 'javascript.jsx'
+on_ft = ['javascript', 'javascript.jsx']
+
+# for java ------------------
+[[plugins]]
+repo = 'artur-shaik/vim-javacomplete2'
+on_ft = 'java'
+
+# for zsh ------------------
+[[plugins]]
+repo = 'zchee/deoplete-zsh'
+on_ft = 'zsh'
+
+# for make ------------------
+[[plugins]]
+repo = 'zchee/deoplete-make'
+on_ft = 'make'
+
+# for docker ------------------
+[[plugins]]
+repo = 'zchee/deoplete-docker'
+on_ft = 'dockerfile'
+
+# for R ------------------
+[[plugins]]
+repo = 'jalvesaq/Nvim-R'
+on_ft = 'r'
+hook_source = '''
+let R_vsplit = 1
+let R_assign = 0
+let R_nvimpager = "horizontal"
+let R_objbr_place = "console,right"
+let R_objbr_opendf = 0
+'''
+
+# for plantuml ------------------
+[[plugins]]
+repo = 'aklt/plantuml-syntax'
+on_ft = 'uml'
+
+# for markdown ------------------
+[[plugins]]
+repo = 'rhysd/vim-grammarous'
+on_ft = 'markdown'
+[[plugins]]
+repo = 'kannokanno/previm'
+hook_source='''
+  let g:previm_open_cmd = 'google-chrome-stable'
+'''
+on_ft = 'markdown'
+
+[[plugins]]
+repo =  'Shougo/neco-vim'
+on_ft = 'vim'

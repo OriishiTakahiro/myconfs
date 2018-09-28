@@ -1,0 +1,7 @@
+[FileDialogSize]
+Height 1440=765
+Width 2560=1105
+
+[KFileDialog Settings]
+Recent Files[$e]=Ricoh-Basic_PS_Color.ppd,file:///usr/share/ppd/cupsfilters/brother_hll8350cdw_printer_en.ppd,file:///usr/share/printer/ppd/brother_hll8350cdw_printer_en.ppd,file:$HOME/Downloads/Ricoh-Basic_PSv1.12.1/Ricoh-Basic_PS_Color.ppd
+Recent URLs[$e]=file:$HOME/Downloads/Ricoh-Basic_PSv1.12.1/,file:///usr/share/printer/ppd/,file:///usr/share/ppd/cupsfilters/

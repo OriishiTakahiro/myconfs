@@ -1,0 +1,69 @@
+[Devices]
+PIONEER BD-RW   BDR-UD03=11080,11080
+
+[External Programs]
+cdrdao user parameters=
+cdrecord user parameters=
+cdrskin default=/usr/bin/cdrskin
+cdrskin last seen newest version=1.4.8
+cdrskin user parameters=
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs user parameters=
+mkisofs user parameters=
+normalize user parameters=
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox user parameters=
+transcode user parameters=
+vcdxbuild default=/usr/bin/vcdxbuild
+vcdxbuild last seen newest version=0.7.24
+vcdxbuild user parameters=
+vcdxminfo default=/usr/bin/vcdxminfo
+vcdxminfo last seen newest version=0.7.24
+vcdxminfo user parameters=
+vcdxrip default=/usr/bin/vcdxrip
+vcdxrip last seen newest version=0.7.24
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=17.12.0
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/tmp
+burnfree=true
+check system config=true
+config version=17.12.0
+current theme=quant
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Decoration position=0
+Previews=false
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=Simple
+last url[$e]=$HOME/
+listViewIconSize=0
+show bookmarks=false
+
+[image writing]
+recent images[$e]=$HOME/Downloads/lisk-nano-1.3.1-x86_64 (1).AppImage,$HOME/Downloads/lisk-nano-1.3.1-x86_64.AppImage
+
+[main_window_settings]
+Height 1108=489
+Height 831=489
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAGCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1477=640
+Width 1969=640

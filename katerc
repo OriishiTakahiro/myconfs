@@ -1,0 +1,35 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+
+[MainWindow]
+Height 1029=946
+Height 1080=740
+Height 1108=1039
+Height 831=1039
+State=AAAA/wAAAAD9AAAAAAAABcUAAAPxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1477=1477
+Width 1829=1397
+Width 1920=1103
+Width 1969=1477
+
+[filetree]
+editShade=33,84,111
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=66,73,74

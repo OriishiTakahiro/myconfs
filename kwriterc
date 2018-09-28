@@ -1,0 +1,14 @@
+[General Options]
+ShowMenuBar=true
+ShowPath=false
+ShowStatusBar=true
+
+[MainWindow]
+Height 1108=381
+State=AAAA/wAAAAD9AAAAAAAABDYAAAE5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1969=1078
+
+[Recent Files]
+File1[$e]=$HOME/Documents/study/2017/doc/conference/IA_2017_8/data/keys.txt
+Name1[$e]=keys.txt

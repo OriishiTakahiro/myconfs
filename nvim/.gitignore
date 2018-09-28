@@ -1,0 +1,5 @@
+*
+!/\.gitignore
+!/init.vim
+!/dein-plugins.toml
+!/dein-lazy-plugins.toml

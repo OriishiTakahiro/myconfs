@@ -1,0 +1,4 @@
+[General]
+dontChangeAASettings=true
+forceFontDPI=125
+forceFontDPIWayland=140

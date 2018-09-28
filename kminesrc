@@ -1,0 +1,11 @@
+[KgDifficulty]
+Level=Easy
+
+[KgTheme]
+Theme=themes/default.desktop
+
+[MainWindow]
+Height 831=443
+State=AAAA/wAAAAD9AAAAAAAAAxQAAAFSAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1477=788

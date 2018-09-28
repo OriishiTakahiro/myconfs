@@ -1,0 +1,6 @@
+[Event/ConnectionFailed]
+Action=Popup|Logfile
+Execute=
+Logfile=
+Sound=
+TTS=

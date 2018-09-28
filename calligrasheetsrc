@@ -1,0 +1,101 @@
+[DockWidget sharedtooldocker]
+TabbedMode=false
+
+[File Dialogs]
+SaveDocument=/home/takahiro/Documents/study/2017/doc/conference/IA_2017_8/fig
+
+[FileDialogSize]
+Height 1108=611
+Height 831=611
+Width 1477=1032
+Width 1969=1032
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/exam_sheet.ods,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/tmp.pdf,file:$HOME/Pictures/person3.png,file:$HOME/Pictures/person2.png,file:$HOME/Pictures/person1.png,file:$HOME/Pictures/woman.png,file:$HOME/Pictures/face.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/user-list.ods,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/exam_sheet.pdf
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/
+
+[MainWindow]
+Height 1080=1080
+Height 1108=720
+Width 1920=1920
+Width 1969=1312
+ko_geometry=AdnQywACAAAAAAoAAAAAAAAAEX8AAAQ3AAAMggAAADQAAA79AAAENQAAAAEABAAAB4A=
+ko_windowstate=AAAA/wAAAAD9AAAAAwAAAAAAAACEAAAClPwCAAAAAfsAAAAUAFMAdABlAG4AYwBpAGwAQgBvAHgBAAABpAAAApQAAAB5AAgAEwAAAAEAAAb2AAAClPwCAAAACPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAqwAAAFsAAABYAP////sAAAAoAFMAbgBhAHAARwB1AGkAZABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAABQA////+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAABQA////+wAAACoAUwBoAGEAcABlAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIBAAABpAAAAXYAAABFAAgAE/sAAAAOAE0AbwBkAGUAQgBvAHgBAAADIAAAARgAAACPAAgAE/sAAAASAFMAYwByAGkAcAB0AGkAbgBnAAAAAAD/////AAAAfwD////7AAAAHgBwAHkAYwBvAG4AcwBvAGwAZQBkAG8AYwBrAGUAcgAAAAAA/////wAAABQA////+wAAABQAcgBiAHMAbgBpAHAAcABlAHQAcwAAAAAA/////wAAABQA////AAAAAgAAB4AAAAFw/AEAAAAB+wAAADAAQwBhAGwAbABpAGcAcgBhAFMAaABlAGUAdABzAEMAZQBsAGwARQBkAGkAdABvAHIBAAAAAAAAB4AAAAFcAP///wAAAAAAAAKUAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+
+[Recent Dirs]
+OpenDialog[$e]=$HOME/Downloads,$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig,$HOME
+
+[RecentFiles]
+File1[$e]=$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/exam_sheet.ods
+File2[$e]=$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/user-list.ods
+File3[$e]=$HOME/Downloads/阿波市　災害対応型自動販売機設置場所.xlsx
+File4[$e]=$HOME/Downloads/【インターン_エンジニア】スキルチェックシート_0518.xlsx
+Name1[$e]=exam_sheet.ods
+Name2[$e]=user-list.ods
+Name3[$e]=阿波市　災害対応型自動販売機設置場所.xlsx
+Name4[$e]=【インターン_エンジニア】スキルチェックシート_0518.xlsx
+
+[Stencil Box]
+viewMode=1
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=
+DetailsPaneSplitterSizes=723,319
+FullTemplateName[$e]=/usr/share/calligrasheets/templates/General/.source/Worksheet.kst
+LastReturnType=Template
+
+[calligra]
+DevicePlugins=spacenavigator
+DevicePluginsDisabled=
+DockerPlugins=calligradockers,calligra_docker_stencils
+DockerPluginsDisabled=
+ModeBoxHorizontalTabsSide=0
+ShapePlugins=artistictextshape,chartshape,formulashape,musicshape,pathshapes,pictureshape,pluginshape,spreadsheetshape,textshape,threedshape,vectorshape,videoshape
+ShapePluginsDisabled=
+TextEditingPlugins=autocorrect,changecase,spellcheck
+ToolPlugins=basicflakesplugin,defaulttools,karbontools
+ToolPluginsDisabled=
+
+[calligrasheets]
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACEAAADcvwCAAAAAfsAAAAUAFMAdABlAG4AYwBpAGwAQgBvAHgBAAAAqwAAA3IAAAB5AAgAEwAAAAEAAAGLAAADcvwCAAAACPsAAAAgAHMAaABhAHIAZQBkAHQAbwBvAGwAZABvAGMAawBlAHIAAAAAqwAAAFsAAABYAP////sAAAAoAFMAbgBhAHAARwB1AGkAZABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAE4A////+wAAACAAUwBoAGEAcABlACAAUAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAABQA////+wAAACoAUwBoAGEAcABlAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIBAAAAqwAAAPcAAABFAAgAE/sAAAAOAE0AbwBkAGUAQgBvAHgBAAABqAAAAnUAAACPAAgAE/sAAAASAFMAYwByAGkAcAB0AGkAbgBnAAAAAAD/////AAAAfwD////7AAAAHgBwAHkAYwBvAG4AcwBvAGwAZQBkAG8AYwBrAGUAcgAAAAAA/////wAAABQA////+wAAABQAcgBiAHMAbgBpAHAAcABlAHQAcwAAAAAA/////wAAABQA////AAAAAgAAB4AAAAB3/AEAAAAB+wAAADAAQwBhAGwAbABpAGcAcgBhAFMAaABlAGUAdABzAEMAZQBsAGwARQBkAGkAdABvAHIBAAAAAAAAB4AAAAFcAP///wAABWUAAANyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAYAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBlAGQAaQB0AFQAbwBvAGwAQgBhAHIBAAAAoP////8AAAAAAAAAAAAAACIAbgBhAHYAaQBnAGEAdABpAG8AbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAmAGYAbwBuAHQAUAByAG8AcABlAHIAdAB5AFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABoAZgBvAHIAbQBhAHQAVABvAG8AbABCAGEAcgEAAAH7/////wAAAAAAAAAAAAAAKgBjAG8AbABvAHIAQQBuAGQAQgBvAHIAZABlAHIAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[calligrasheets][DockWidget CalligraSheetsCellEditor]
+Collapsed=false
+DockArea=4
+Locked=false
+
+[calligrasheets][DockWidget ModeBox]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrasheets][DockWidget Scripting]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrasheets][DockWidget Shape Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrasheets][DockWidget ShapeCollectionDocker]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrasheets][DockWidget SnapGuide Properties]
+Collapsed=false
+DockArea=2
+Locked=false
+
+[calligrasheets][DockWidget StencilBox]
+Collapsed=false
+DockArea=1
+Locked=false
+
+[calligrasheets][DockWidget sharedtooldocker]
+Collapsed=false
+DockArea=2
+Locked=false

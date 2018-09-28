@@ -1,0 +1,49 @@
+[General]
+UrlNavigatorIsEditable=true
+
+[ImageView]
+ThumbnailSplitterSizes=566,162
+
+[MainWindow]
+Height 1108=678
+Height 1440=1371
+Height 720=665
+Height 831=525
+State=AAAA/wAAAAD9AAAAAAAACgAAAAUkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1280
+Width 1477=1214
+Width 1969=1303
+Width 2560=2560
+Window-Maximized 1080x1920=true
+Window-Maximized 1440x2560=true
+Window-Maximized 831x1477=true
+
+[Print]
+PrintHeight=11.25
+
+[Recent Files]
+File1[$e]=$HOME/Documents/study/2017/doc/GraduationThesis/fig/system_protected.png
+File2[$e]=$HOME/Documents/study/2017/doc/GraduationThesis/fig/src/fido-system.png
+File3[$e]=$HOME/Documents/study/2017/doc/GraduationThesis/fig/src/system.png
+File4[$e]=$HOME/Pictures/Screenshot_20180305_231403.png
+File5[$e]=$HOME/Pictures/Screenshot_20180401_002048.png
+File6[$e]=$HOME/Pictures/face.png
+Name1[$e]=system_protected.png
+Name2[$e]=fido-system.png
+Name3[$e]=system.png
+Name4[$e]=Screenshot_20180305_231403.png
+Name5[$e]=Screenshot_20180401_002048.png
+Name6[$e]=face.png
+
+[SideBar-BrowseMode]
+IsVisible=true
+
+[SideBar-FullScreenMode]
+IsVisible=false
+
+[SideBar-ViewMode]
+IsVisible=true
+
+[ThumbnailView]
+ThumbnailSize=256

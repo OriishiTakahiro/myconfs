@@ -1,0 +1,16 @@
+[Added Associations]
+application/pdf=evince.desktop;libreoffice-draw.desktop;org.kde.karbon.desktop;mendeleydesktop.desktop;inkscape.desktop;gimp.desktop;
+image/svg+xml=inkscape.desktop;
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+
+[Default Applications]
+application/pdf=evince.desktop;
+image/svg+xml=inkscape.desktop;
+text/html=google-chrome.desktop
+x-scheme-handler/slack=slack.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+

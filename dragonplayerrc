@@ -1,0 +1,96 @@
+Brightness=0
+Contrast=0
+Date=2017,11,15
+Height 1108=480
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+State=AAAA/wAAAAD9AAAAAAAAAosAAAGBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1969=651
+
+[FileDialogSize]
+Height 1108=480
+Width 1969=1245
+
+[General]
+TimeFormat=1
+Volume=0.899993896484375
+
+[KFileDialog Settings]
+Recent Files[$e]=01 光、再考.mp3,file:///run/media/takahiro/DVD_VIDEO/VIDEO_TS/VTS_01_0.VOB,file:$HOME/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/01 光、再考.mp3,file:$HOME/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/10 季節は次々死んでいく.mp3,file:$HOME/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/11 美しき思い出.mp3
+Recent URLs[$e]=file:$HOME/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/,file:$HOME/Music/amazarashi/季節は次々死んでいく/,file:///run/media/takahiro/DVD_VIDEO/VIDEO_TS/
+
+[MainWindow]
+Height 1108=824
+Height 720=451
+State=AAAA/wAAAAD9AAAAAAAABPsAAALZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=651
+Width 1969=1275
+
+[Phonon::AudioOutput]
+Dragon Player_Volume=1
+
+[disc:,]
+Brightness=0
+Contrast=0
+Date=2017,11,15
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[disc:4b694b9500000000,DVD_VIDEO]
+Brightness=0
+Contrast=0
+Date=2017,12,15
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///home/takahiro/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/01 光、再考.mp3]
+Brightness=0
+Contrast=0
+Date=2017,10,22
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///home/takahiro/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/10 季節は次々死んでいく.mp3]
+Brightness=0
+Contrast=0
+Date=2017,10,22
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///home/takahiro/Music/amazarashi/あまざらし 千分の一夜物語 スターライト/11 美しき思い出.mp3]
+Brightness=0
+Contrast=0
+Date=2017,10,22
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///home/takahiro/Music/amazarashi/季節は次々死んでいく/01 季節は次々死んでいく.mp3]
+Brightness=0
+Contrast=0
+Date=2017,10,22
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
+
+[file:///run/media/takahiro/DVD_VIDEO/VIDEO_TS/VTS_01_0.VOB]
+Brightness=0
+Contrast=0
+Date=2017,12,15
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0

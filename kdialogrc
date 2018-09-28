@@ -1,0 +1,16 @@
+[Audio Preview Settings]
+Autoplay=true
+
+[FileDialogSize]
+Height 1080=910
+Height 1108=799
+Height 1440=910
+Height 831=799
+Width 1477=1331
+Width 1920=1160
+Width 1969=1331
+Width 2560=1160
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Downloads/program.pdf,file:$HOME/情報セキュリティシステム論02.pdf,file:$HOME/Nonlinear_Phenomena_in_Circuits_and_Systems_Japanese.pdf,file:$HOME/Nonlinear_Phenomena_in_Circuits_and_Systems.pdf,file:$HOME/Pictures/Screenshot_20180401_002048.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/tecrep.pdf,file:$HOME/comment.md,file:$HOME/Documents/namecard/gakusyo_mini.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/paper.pdf,file:$HOME/Documents/bus.html,file:$HOME/Documents/study/2017/doc/survey/Blockchain/SSRN-id2519367.pdf,file:$HOME/Downloads/slides.pdf,file:$HOME/Pictures/Screenshot_20180213_101034.png,file:$HOME/Pictures/Screenshot_20180213_100944.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/diff/paper.pdf,file:$HOME/Pictures/Screenshot_20180211_170048.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Documents/study/2017/doc/survey/Blockchain/,file:$HOME/Documents/study/2017/,file:$HOME/Documents/namecard/,file:$HOME/Pictures/,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/

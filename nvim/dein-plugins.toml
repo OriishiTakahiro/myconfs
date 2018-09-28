@@ -1,0 +1,93 @@
+# for general ------------------
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+hook_add = '''  
+let g:airline_powerline_fonts = 1  
+let g:airline#extensions#hunks#enabled = 0
+let g:airline_section_z = airline#section#create(['windowswap', '%3p%% ', 'linenr', ':%3v'])
+'''  
+
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+hook_add = '''
+let g:airline_theme='deus'
+'''
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_source = '''
+  let g:deoplete#enable_at_startup = 1
+  inoremap <expr><tab> pumvisible() ? "\<C-n>" :
+        \ neosnippet#expandable_or_jumpable() ?
+        \    "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
+'''
+hook_add = '''
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#auto_complete_delay = 0
+let g:deoplete#auto_complete_start_length = 1
+let g:deoplete#enable_refresh_always = 0
+let g:deoplete#file#enable_buffer_path = 1
+let g:deoplete#max_list = 10000
+'''
+on_i = 1
+
+[[plugins]]
+repo = 'Shougo/unite.vim' 
+
+[[plugins]]
+repo = 'Shougo/denite.nvim' 
+
+[[plugins]]
+repo = 'Shougo/vimfiler'
+hook_add = '''
+let g:vimfiler_as_default_explorer = 1
+noremap <silent> :tree :VimFiler -split -simple -winwidth=45 -no-quit
+'''
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+hook_add = '''
+let g:indentLine_color_term = 239
+autocmd BufNewFile,BufRead *.tex let g:indentLine_enabled=0
+autocmd BufNewFile,BufRead *.json let g:indentLine_enabled=0
+'''
+
+[[plugins]] # git wrapper
+repo = 'tpope/vim-fugitive'
+
+[[plugins]] # show 'git diff' at left side
+repo = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repo = 'kshenoy/vim-signature'
+
+[[plugins]]
+repo = 'kien/ctrlp.vim'
+hook_add = '''
+nnoremap <C-f> :CtrlP<CR>
+'''
+
+
+[[plugins]]
+repo = 'LeafCage/yankround.vim'
+depends = ['kien/ctrlp.vim']
+hook_add = '''
+nmap p <Plug>(yankround-p)
+xmap p <Plug>(yankround-p)
+nmap P <Plug>(yankround-P)
+nmap gp <Plug>(yankround-gp)
+xmap gp <Plug>(yankround-gp)
+nmap gP <Plug>(yankround-gP)
+nmap <C-p> <Plug>(yankround-prev)
+nmap <C-n> <Plug>(yankround-next)
+'''

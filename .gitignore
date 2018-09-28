@@ -1,0 +1,8 @@
+!nvim/dein-plugins.toml
+!nvim/dein-lazy-plugins.toml
+!nvim/init.vim
+!rofi/*
+!i3/config
+!i3/status.toml
+!.gitignore
+*/*

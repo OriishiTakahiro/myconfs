@@ -1,0 +1,22 @@
+[FileDialogSize]
+Height 1108=688
+Height 831=480
+Width 1477=917
+Width 1969=1154
+
+[General]
+last-saved-to[$e]=$HOME/Pictures
+lastSaveAsLocation=file:///home/takahiro/
+
+[GuiConfig]
+captureModeIndex=4
+cropRegion=35,236,854,213
+includeDecorations=true
+includePointer=false
+lastUsedSaveMode=2
+onClickChecked=false
+window-position=396,21
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/src/Screenshot_20180123_040131.png,file:$HOME/Screenshot_20180411_114101.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/system_protected.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/fido_system.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/existed_method1.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/existed_method3.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/existed_method2.png,file:$HOME/Downloads/Screenshot_20180205_210718.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/ss_raw.png,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/ss_QR.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/ss_db.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/ss_qrlist.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/user_list.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/exam-sheet.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/src/ss_userlist.png,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/src/ss_qr.png
+Recent URLs[$e]=file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/src/,file:$HOME/Documents/study/2017/doc/conference/IA_2017_8/fig/,file:$HOME/Documents/study/2017/doc/GraduationThesis/fig/,file:$HOME/Downloads/,file:$HOME/Documents/study/2017/doc/GraduationThesis/

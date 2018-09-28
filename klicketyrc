@@ -1,0 +1,31 @@
+[KHighscore_KSame]
+0_LastPlayer=Takahiro Oriishi
+10_Name=-
+10_Score=-
+1_Name=Takahiro Oriishi
+1_Score=598
+2_Name=-
+2_Score=-
+3_Name=-
+3_Score=-
+4_Name=-
+4_Score=-
+5_Name=-
+5_Score=-
+6_Name=-
+6_Score=-
+7_Name=-
+7_Score=-
+8_Name=-
+8_Score=-
+9_Name=-
+9_Score=-
+
+[KgDifficulty]
+Level=KSame
+
+[MainWindow]
+Height 1440=835
+State=AAAA/wAAAAD9AAAAAAAAA38AAALFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2560=895

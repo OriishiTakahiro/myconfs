@@ -1,0 +1,5 @@
+[Module-appmenu]
+autoload=true
+
+[Module-kscreen]
+autoload=false

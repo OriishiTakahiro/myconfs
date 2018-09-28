@@ -1,0 +1,27 @@
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAFWAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAIAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABGAGkAbABlAQAAAAD/////AAAAAAAAAAAAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABFAGQAaQB0AQAAAK7/////AAAAAAAAAAAAAAACAAAAAgAAADQATQBhAGkAbgBXAGkAZABnAGUAdAAgAFIAZQBjAG8AcgBkAC8AUABsAGEAeQBiAGEAYwBrAQAAAAD/////AAAAAAAAAAAAAAAeAE0AYQBpAG4AVwBpAGQAZwBlAHQAIABaAG8AbwBtAQAAAZD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+toolbars=3
+
+[MainWindow][Toolbar MainWidget Edit]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget File]
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Record/Playback]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[MainWindow][Toolbar MainWidget Zoom]
+IconSize=32
+ToolButtonStyle=IconOnly
+
+[Recent Files]
+0=/home/takahiro/Music/amazarashi/メッセージボトル [Disc 1]/1-01 光、再考.mp3
+1=/home/takahiro/Music/amazarashi/季節は次々死んでいく/01 季節は次々死んでいく.mp3
+2=/home/takahiro/Music/amazarashi/空に歌えば/01 空に歌えば.mp3
+
+[plugin volume]
+defaults=0.223872,2
+version=2.3
