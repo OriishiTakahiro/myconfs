@@ -32,7 +32,7 @@ on_ft = ['haskell']
 # plugin for linter
 [[plugins]]
 repo = 'w0rp/ale'
-on_ft = ['go', 'haskell', 'typescript', 'python', 'java', 'tex', 'markdown', 'yaml', 'javascript', 'sql', 'html']
+on_ft = ['go', 'haskell', 'typescript', 'python', 'java', 'tex', 'markdown', 'yaml', 'javascript', 'sql', 'html', 'elm']
 hook_source = '''
 let g:ale_lint_on_save = 1
 let g:ale_lint_on_text_changed = 1
@@ -78,6 +78,7 @@ let g:ale_linters = {
 \   'javascript':['eslint', 'flow'],
 \   'sql':['sqlint'],
 \   'html':['alex', 'proselint'],
+\   'elm':['elm-format'],
 \}
 '''
 
@@ -226,10 +227,9 @@ let g:delve_backend = "native"
 hook_source = '''
 nmap :bp :DlvToggleBreakpoint<CR> " <CR> means press Return key
 nmap :tp :DlvToggleTracepoint<CR>
-nmap :gdebug :DlvDebug<CR>
-nmap :gtest :DlvTest<CR>
-nmap :gtest :DlvTest<CR>
-nmap :gclear :DlvClearAll<CR>
+nmap :dlvdebug :DlvDebug<CR>
+nmap :dlvtest :DlvTest<CR>
+nmap :dlvclear :DlvClearAll<CR>
 '''
 [[plugins]]
 repo = 'vim-jp/vim-go-extra'
@@ -348,9 +348,38 @@ hook_post_update = '''
   let g:tigris#delay = 300
 '''
 [[plugins]]
+repo =  'pangloss/vim-javascript'
+on_ft = ['javascript', 'javascript.jsx']
+[[plugins]]
 repo =  'maxmellon/vim-jsx-pretty'
 on_ft = 'javascript.jsx'
-on_ft = ['javascript', 'javascript.jsx']
+[[plugins]]
+repo =  'mxw/vim-jsx'
+on_ft = 'javascript.jsx'
+
+# for Vue.js ------------------
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = 'vue'
+hook_source = '''
+  autocmd FileType vue syntax sync fromstart
+'''
+
+# for Elm ------------------
+[[plugins]]
+repo = 'ElmCast/elm-vim'
+on_ft =  'elm'
+hook_source = '''
+  let g:elm_jump_to_error = 0
+  let g:elm_make_output_file = "elm.js"
+  let g:elm_make_show_warnings = 0
+  let g:elm_syntastic_show_warnings = 0
+  let g:elm_browser_command = ""
+  let g:elm_detailed_complete = 0
+  let g:elm_format_autosave = 1
+  let g:elm_format_fail_silently = 0
+  let g:elm_setup_keybindings = 1
+'''
 
 # for java ------------------
 [[plugins]]
