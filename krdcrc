@@ -1,0 +1,35 @@
+[MainWindow]
+Height 1440=1391
+State=AAAA/wAAAAD9AAAAAQAAAAAAAADzAAAFOPwCAAAAAfsAAAAwAHIAZQBtAG8AdABlAEQAZQBzAGsAdABvAHAAcwBEAG8AYwBrAFcAaQBkAGcAZQB0AAAAADcAAAU4AAAAhwD///8AAANRAAAFOAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAABAAAAMABrAHIAZABjAF8AcgBlAG0AbwB0AGUAXwB2AGkAZQB3AF8AdABvAG8AbABiAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2560=849
+
+[hostpreferences][vnc://192.168.0.3:5901]
+quality=2
+showConfigAgain=true
+ssh_tunnel_port=22
+ssh_tunnel_user_name=
+use_ssh_tunnel=false
+use_ssh_tunnel_loopback=false
+walletSupport=true
+windowedScale=false
+
+[hostpreferences][vnc://34.85.82.47]
+quality=2
+showConfigAgain=true
+ssh_tunnel_port=22
+ssh_tunnel_user_name=
+use_ssh_tunnel=false
+use_ssh_tunnel_loopback=false
+walletSupport=true
+windowedScale=false
+
+[hostpreferences][vnc://34.85.82.47:5901]
+quality=2
+showConfigAgain=true
+ssh_tunnel_port=22
+ssh_tunnel_user_name=
+use_ssh_tunnel=false
+use_ssh_tunnel_loopback=false
+walletSupport=true
+windowedScale=false

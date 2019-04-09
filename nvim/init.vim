@@ -3,6 +3,8 @@ let g:python_host_prog = $PYENV_ROOT . '/shims/python'
 
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 autocmd BufNewFile,BufRead *.uml setlocal filetype=uml
+autocmd BufNewFile,BufRead *.tf setlocal filetype=terraform
+autocmd BufRead,BufNewFile */playbooks/*.yml set filetype=yaml.ansible
 let g:tex_flavor='latex'
 
 autocmd FileType go setlocal noexpandtab

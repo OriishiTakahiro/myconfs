@@ -1,0 +1,58 @@
+[Collection Browser]
+View Mode=NormalCollections
+
+[Collection Folders]
+1=home/takahiro/Music
+
+[Collection Transcoding Preference]
+Encoder=INVALID
+TrackSelection=0
+
+[ConfigDialog]
+Height 1440=398
+Width 2560=625
+
+[General]
+First Run=false
+
+[General Options]
+AnimateAppletCollapse=true
+AutoGetCoverArt=true
+PlayFirstRunJingle=false
+
+[MainWindow]
+Height 1080=1031
+Height 1440=1391
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAd8AAADuPwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAHHAAAAyAD////7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAHNAAAD4gAAAZAA////+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAW1AAABxwAAAMgA////AAAAAAAAA7gAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1916
+Width 2560=2556
+
+[Moodbar]
+MoodbarPaintStyle=2
+ShowMoodbarInSlider=true
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchTrack=true
+ShowOnlyMatches=false
+
+[Playlist Sorting]
+SortPath=
+
+[Podcast View]
+Merged View=false
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+Enable Scripts=true
+
+[StatSyncing]
+checkedFields=rating,firstplay,lastplay,playcount,label
+excludedLabels=
+providerEnabledStatuses=true,false
+providerIds=localCollection,AudioCd
+providerNames=Local Collection,Audio CD

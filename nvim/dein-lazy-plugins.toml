@@ -13,21 +13,6 @@ on_i  = 1
 on_ft = ['snippet']
 depends = ['neosnippet-snippets']
 
-# for android ------------------
-[[plugins]]
-repo = 'hsanson/vim-android'
-hook_source = '''
-  let g:gradle_glyph_error = '⨉'
-  let g:gradle_glyph_warning = '⚠'
-  let g:gradle_glyph_gradle = '[g]'
-  let g:gradle_glyph_android = '[a]'
-'''
-on_cmd = 'StartAndroid'
-
-[[plugins]]
-repo = 'Shougo/vimproc.vim'
-on_ft = ['haskell']
-
 # You can confirm filetype by ':set filetype' command.
 # plugin for linter
 [[plugins]]
@@ -81,6 +66,11 @@ let g:ale_linters = {
 \   'elm':['elm-format'],
 \}
 '''
+
+[[plugins]]
+repo = 'vim-syntastic/syntastic'
+on_ft = ['terraform']
+
 
 [[plugins]]
 repo = 'Floobits/floobits-neovim'
@@ -185,15 +175,51 @@ let g:tagbar_type_go = {
 
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
-on_ft = ['go', 'haskell', 'ruby', 'tex']
+on_ft = ['go', 'sh', 'haskell', 'ruby', 'tex']
 
 [[plugins]]
 repo = 'majutsushi/tagbar'  # gd is command for 'go to definition'
-on_ft = ['go', 'haskell', 'python', 'tex']
+on_ft = ['go', 'haskell', 'python', 'tex', 'markdown', 'terraform', 'yaml.ansible', 'make']
 hook_source = '''
 nmap <F8> :TagbarToggle<CR>
 let g:tagbar_width = 30
 let g:tagbar_autoshowtag = 1
+let g:tagbar_type_ansible = {  
+    \ 'ctagstype' : 'ansible',
+    \ 'kinds' : [
+    \ 't:tasks',
+    \ 'h:hosts'
+    \ ],
+    \ 'sort' : 0
+    \ }
+
+let g:tagbar_type_terraform = {  
+    \ 'ctagstype' : 'terraform',
+    \ 'kinds' : [
+    \ 'r:resources',
+    \ 'm:modules',
+    \ 'o:outputs',
+    \ 'v:variables',
+    \ 'f:tfvars'
+    \ ],
+    \ 'sort' : 0
+    \ }
+
+let g:tagbar_type_make = {  
+    \ 'kinds':[
+    \ 'm:macros',
+    \ 't:targets'
+    \ ]
+    \}
+
+let g:tagbar_type_markdown = {  
+    \ 'ctagstype' : 'markdown',
+    \ 'kinds' : [
+    \ 'h:Heading_L1',
+    \ 'i:Heading_L2',
+    \ 'k:Heading_L3'
+    \ ]
+    \ }
 '''
 
 [[plugins]]
@@ -222,7 +248,7 @@ repo = 'sebdah/vim-delve'
 on_ft = 'go'
 hook_source = '''
 let g:delve_enable_syntax_highlighting = 0
-let g:delve_backend = "native"
+/let g:delve_backend = "native"
 '''
 hook_source = '''
 nmap :bp :DlvToggleBreakpoint<CR> " <CR> means press Return key
@@ -287,8 +313,18 @@ let g:latex_fold_sections = [
 let g:latex_fold_enabled = 1
 let g:latex_fold_automatic = 1
 let g:latex_fold_envs = 0
-" others
+" ignore font warnings
 let g:vimtex_imaps_enabled = 0
+let g:Tex_IgnoredWarnings =
+      \"Underfull\n".
+      \"Overfull\n".
+      \"specifier changed to\n".
+      \"You have requested\n".
+      \"Missing number, treated as zero.\n".
+      \"There were undefined references\n".
+      \"Citation %.%# undefined\n".
+      \"LaTeX Font Warning:"
+let g:Tex_IgnoreLevel = 8
 '''
 on_ft = 'tex'
 
@@ -404,14 +440,14 @@ on_ft = 'dockerfile'
 # for R ------------------
 [[plugins]]
 repo = 'jalvesaq/Nvim-R'
-on_ft = 'r'
 hook_source = '''
-let R_vsplit = 1
-let R_assign = 0
-let R_nvimpager = "horizontal"
-let R_objbr_place = "console,right"
-let R_objbr_opendf = 0
+  let R_vsplit = 1
+  let R_assign = 0
+  let R_nvimpager = "horizontal"
+  let R_objbr_place = "console,right"
+  let R_objbr_opendf = 0
 '''
+on_ft = 'r'
 
 # for plantuml ------------------
 [[plugins]]
@@ -432,3 +468,18 @@ on_ft = 'markdown'
 [[plugins]]
 repo =  'Shougo/neco-vim'
 on_ft = 'vim'
+
+
+# for terraform ------------------
+[[plugins]]
+repo = 'hashivim/vim-terraform'
+on_ft = 'terraform'
+
+# for ansible ------------------
+[[plugins]]
+repo = 'pearofducks/ansible-vim'
+on_ft = 'yaml.ansible'
+hook_source = '''
+  let g:ansible_unindent_after_newline = 1
+  let g:ansible_attribute_highlight = "ob"
+'''

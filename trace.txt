@@ -1,0 +1,18 @@
+git rev-parse --no-revs --no-flags master 
+git rev-parse --flags --no-revs master 
+git rev-parse --symbolic --revs-only master 
+git rev-parse --git-dir --is-inside-work-tree --show-cdup --show-prefix HEAD --symbolic-full-name HEAD 
+git config --list 
+git show-ref --head --dereference 
+git log --encoding=UTF-8 --topo-order master --date=raw --parents --no-color --pretty=format:commit %m %H %P%x00%an <%ae> %ad%x00%s -- 
+git status --porcelain -z --untracked-files=no 
+fatal: bad revision '%m'
+git rev-parse --no-revs --no-flags master 
+git rev-parse --flags --no-revs master 
+git rev-parse --symbolic --revs-only master 
+git rev-parse --git-dir --is-inside-work-tree --show-cdup --show-prefix HEAD --symbolic-full-name HEAD 
+git config --list 
+git show-ref --head --dereference 
+git log --encoding=UTF-8 --topo-order master --date=raw --parents --no-color --pretty=format:commit %m %H %P%x00%an <%ae> %ad%x00%s -- 
+git status --porcelain -z --untracked-files=no 
+fatal: bad revision '%m'
